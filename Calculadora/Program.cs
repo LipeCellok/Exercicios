@@ -43,6 +43,8 @@
 
     static void Subtracao()
     {
+        Console.WriteLine("Bem Vindo ao Menu de Subtração");
+        Console.WriteLine("");
         Console.WriteLine("Digite o Primeiro Numero: ");
         float v1 = float.Parse(Console.ReadLine());
         Console.WriteLine("Digite o segundo Numero: ");
@@ -55,6 +57,8 @@
     
     static void Divisao()
     {
+        Console.WriteLine("Bem Vindo ao Menu de Divisão");
+        Console.WriteLine("");
         Console.WriteLine("Digite o primeiro Numero: ");
         float v1 = float.Parse(Console.ReadLine());
         Console.WriteLine("Digite o Segundo Numero: ");
@@ -68,6 +72,7 @@
     static void Multiplicacao()
     {
         Console.WriteLine("Bem Vindo ao Menu de Multiplicação:");
+        Console.WriteLine("");
         Console.WriteLine("Digite o primeiro Numero: ");
         float v1 = float.Parse(Console.ReadLine());
         Console.WriteLine("Digite o segundo Numero: ");
