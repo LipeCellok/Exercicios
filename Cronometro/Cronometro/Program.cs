@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
         Menu();
-        
+
     }
 
     static void Menu()
@@ -16,7 +16,11 @@
 
         string data = Console.ReadLine().ToLower();
         char type = char.Parse(data.Substring(data.Length - 1, 1));
+<<<<<<< HEAD
         int time = int.Parse(data.Substring(0, data.Length -1));
+=======
+        int time = int.Parse(data.Substring(0, data.Length - 1));
+>>>>>>> 66037ce4a1942ae97d6d0e81a863cd1103749955
         int multiplier = 1;
 
         if (type == 'm')
@@ -26,7 +30,7 @@
             System.Environment.Exit(0);
 
         PreStart(time * multiplier);
-     
+
 
     }
     static void Start(int time)
@@ -47,7 +51,7 @@
         Menu();
     }
 
-    static void PreStart(int time) 
+    static void PreStart(int time)
     {
         Console.Clear();
         Console.WriteLine("Ready...");
